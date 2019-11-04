@@ -1,0 +1,24 @@
+/* S E C T I O N · G O * * * * * * * */
+
+.go{
+    width: 100%;
+    padding: 30px 15px 45px 15px;
+    position: relative;
+    top: 0px;
+
+    &__header{
+        font-size: rem(14);
+        color: $color-secondary;
+    }
+
+    &__title{
+        text-transform: capitalize;
+    }
+
+    &__text{
+        margin-bottom: 30px;
+        font-size: rem(18);
+        line-height: 1.7;
+        color: $color-grey;
+    }
+}
