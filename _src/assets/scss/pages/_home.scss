@@ -2,23 +2,65 @@
 
 .go{
     width: 100%;
-    padding: 30px 15px 45px 15px;
     position: relative;
     top: 0px;
 
-    &__header{
-        font-size: rem(14);
-        color: $color-secondary;
-    }
+    .section-wrapper{
+        width: 100%;
+        padding: 30px 15px 45px 15px;
 
-    &__title{
-        text-transform: capitalize;
-    }
+        @include media($tablet){
+            padding: 60px 40px;
+        }
 
-    &__text{
-        margin-bottom: 30px;
-        font-size: rem(18);
-        line-height: 1.7;
-        color: $color-grey;
+        @include media($desktop){
+            max-width: 730px;
+            margin: 0 auto;
+        }    
+
+        .go__header{
+            font-size: rem(14);
+            color: $color-secondary-light;
+        }
+
+        .go__title{
+            text-transform: capitalize;
+        }
+
+        .go__text{
+            margin-bottom: 30px;
+            color: $color-grey;
+        }
+    }
+}
+
+/* S E C T I O N · R E A S O N S * * * * * * * */
+
+.reasons{
+    width: 100%;
+    background-color: $color-secondary-lightest;
+    text-align: center;
+
+    .section-wrapper{
+        width: 100%;
+        padding: 30px 15px 60px 15px;
+
+        h2{
+            text-transform: capitalize;
+        }
+
+        .reasons__list{
+            width: 60%;
+            margin: 45px auto 0 auto;
+
+            &--item{
+                margin-bottom: 45px;
+
+                h3, p{
+                    margin: 0;
+                    line-height: 1.7;
+                }
+            }
+        }
     }
 }

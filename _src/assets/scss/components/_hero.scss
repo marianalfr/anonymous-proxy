@@ -45,19 +45,11 @@
 
     &__subtitle{
         font-size: rem(16);
-        margin: 20px 0 0 0;
+        margin: 20px 0 45px 0;
 
         @include media($tablet){
             font-size: rem(24);
-            margin: 40px 0 0 0;
-        }
-    }
-
-    .arrow-down{
-        margin-top: 45px;
-
-        @include media($tablet){
-            margin-top: 30px;
+            margin: 40px 0 30px 0;
         }
     }
 }
