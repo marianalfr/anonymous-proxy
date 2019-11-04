@@ -1,7 +1,7 @@
 {
-	"name": "AdalabWebStarterKit",
+	"name": "Anonymous Proxy",
 	"version": "2.0.2",
-	"description": "Adalab web starter kit",
+	"description": "Final Exercise Module 1",
 	"dependencies": {
 		"browser-sync": "^2.26.3",
 		"del": "^3.0.0",
