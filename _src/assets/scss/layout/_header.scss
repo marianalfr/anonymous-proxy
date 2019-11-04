@@ -1,0 +1,26 @@
+.header{
+    width: 44px;
+    height: 44px;
+    background-color: $color-secondary;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+    .header__nav{
+
+        span{
+            display: block;
+            width: 20px;
+            height: 2px;
+            margin-bottom: 5px;
+            position: relative;
+            top: 14px;
+            left: 12px;
+            background-color: $color-white;
+            border-radius: 1px;
+            
+
+        }
+    }
+}
