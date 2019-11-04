@@ -1,3 +1,27 @@
+@keyframes bottom{
+    0%{
+        transform: translateY(-10px);
+    }
+    33%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes top{
+    0%{
+        transform: translateY(10px);
+    }
+    33%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
 .btn__arrow-down{
     width: 46px;
     height: 46px;
@@ -7,6 +31,9 @@
     background-color: $color-white;
     background-position: center;
     background-repeat: no-repeat;
+    animation-name: bottom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .btn__frame{
@@ -75,4 +102,7 @@
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.178);
+    animation-name: top;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
