@@ -32,6 +32,7 @@ Este es el resultado de mi ejercicio final del módulo 1 de Adalab. A continuaci
 
 ## 7. Docs.
 - He creado la carpeta docs corriendo `gulp docs` y la he subido a master.
+- He activado GitHub pages con la ruta a `docs` y he pegado el link en la descripción del repo.
 
 ## 8. Readme.
 - Y ahora estoy modificando el readme y creo que ya he terminado.
