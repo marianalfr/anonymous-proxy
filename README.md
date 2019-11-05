@@ -1,4 +1,46 @@
 
+# Ejercicio final del módulo 1.
+Este es el resultado de mi ejercicio final del módulo 1 de Adalab. A continuación voy a explicar brevemente lo que he hecho.
+
+----
+
+## 1. He creado el repositorio.
+- A través del link que nos proporcionaba el enunciado, he creado mi repositorio en GitHub Classroom.
+- He creado una carpeta nueva para el ejercicio en mi local, usando el Starter Kit que había preparado a partir del de Adalab.
+- He conectado mi repositorio local con el remoto.
+
+## 2. He establecido la estructura de mi HTMl con sus partials.
+- He decidido cómo quería organizar mi proyecto y he creado los archivos de mis partials de HTMl. Los de sass los tenía todos creados en mi kit, y hasta el final no he borrado los que no quería.
+- Mi `index.html` queda organizado con un partial para el `<header>`, otro para el `<footer>`, y una sección `<main>` que se divide a su vez en tres partials: el `_hero.html`; la primera sección, a la que he llamado `_go.html`; y la segunda, a la que he llamado `_reasons.html`. 
+
+## 3. He establecido las bases del "sistema de diseño".
+- Teniendo en cuenta los colores y los estilos de fuente del proyecto, he añadido las variables necesarias para establecer todos los colores, he incluido las fuentes en mi `index.html`, y he establecido los tipos de fuente de las etiquetas HTMl.
+- Al maquetar los botones me he dado cuenta de que estaba repitiendo mucho código, así que he creado dos mixins (uno para los botones redondos y otro para los alargados).
+
+## 4. Maquetación.
+- He ido maquetando cada sección como se solicitaba en el enunciado.
+- Para tener todos mis tamaños de letra en rems, he utilizado la función que se nos sugería en la teoría del curso, que ya tenía preparada en mi Starter Kit.
+- También tenía preparado un mixin para las media queries, que he usado con dos variables a las que he llamado `$tablet`y `$desktop`, que establecen los breakpoints de los respectivos dispositivos. (He usado los valores que hemos estado utilizando en clase).
+
+## 5. He creado una rama de git.
+- Para añadir las animaciones en los botones del *hero* y del *footer* me he creado la rama **animations** en git.
+- He separado las animaciones en el partial `_animaciones.scss`, que he metido en la carpeta `components`.
+- Antes de fusionar con master, he revisado indentación y alguna otra cosa.
+
+## 6. ¡Merche!.
+- He fusionado la rama ¡y no ha dado problemas!.
+
+## 7. Docs.
+- He creado la carpeta docs corriendo `gulp docs` y la he subido a master.
+
+## 8. Readme.
+- Y ahora estoy modificando el readme y creo que ya he terminado.
+
+----
+*A continuación dejo la información del Starter Kit como la tenía*
+
+----
+
 # Starter Kit
 Esta es una modificación del [Starter Kit de Adalab](https://github.com/Adalab/Adalab-web-starter-kit) en node/gulp para utilizarlo como base de nuestros ejercicios y proyectos.
 Incluye SCSS, un sistema de plantillas HTMl y un web server.
