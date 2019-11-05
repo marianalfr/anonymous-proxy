@@ -7,13 +7,20 @@
         height: 240px;
     }
 
-    .btn__arrow-top{
-        position: relative;
-        top: -23px;
-        left: 50%;
-        transform: translateX(-50%);
+    &__button{
+        display: flex;
+        justify-content: center;
 
+        .btn__arrow-top{
+            position: relative;
+            top: -23px;
+            animation-name: top;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            cursor: pointer;
+        }
     }
+
 
     .section-wrapper{
         height: 100%;

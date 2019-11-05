@@ -2,5 +2,24 @@
 @mixin media($width){
     @media all and (min-width: $width){
         @content
-    }
+    };
 }
+
+/* BUTTONS */
+@mixin roundButton(){
+    width: 46px;
+    height: 46px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+@mixin longButton(){
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    margin: 0;
+    border-radius: 23px;
+    font-size: rem(20);
+    cursor: pointer;
+}
+
