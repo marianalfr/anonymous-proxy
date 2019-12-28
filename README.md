@@ -1,3 +1,65 @@
+# Anonymous Proxy.
+
+This is a very simple layout exercise we developed at [Adalab](https://adalab.es/). We had to replicate a given design using html and sass partials compiled with gulp.
+
+![AP-home](AP-home.png)
+![AP](AP.png)
+
+
+### Getting started
+
+If you want to play around with my project, please visit [my Github repository](https://github.com/marianalfr/anonymous-proxy) to clone or download it.
+* To clone it: copy this [link](https://github.com/marianalfr/anonymous-proxy.git) and go to your terminal. Once on the terminal, navigate to the directory where you want to install it and use the command:
+
+```$ git clone https://github.com/marianalfr/anonymous-proxy.git```
+
+* To download it: you can download the zip version using the clone or download tab on the repository and unzip it in your local directory.
+
+
+### Installing
+
+* On your terminal, make sure you are in your *anonymous-proxy* folder and run the commands:
+
+`$ npm install`
+
+`$ npm start` or `$ gulp`
+
+* Gulp will create the `public`folder and will run a local server where any changes will immediately show.
+* You can also create a `docs`folder by running `gulp docs`on your terminal.
+
+
+### Technologies
+
+* HTML 5.
+* CSS - SCSS.
+* Gulp
+
+
+### MIT License.
+
+Copyright (c) 2019 Mariana Lerma.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----
+----
+
 
 # Ejercicio final del módulo 1.
 Este es el resultado de mi ejercicio final del módulo 1 de Adalab. A continuación voy a explicar brevemente lo que he hecho.
